@@ -2,6 +2,6 @@
 
 This C# project is based on dnx. Assuming you have `dnx` [(read more)](https://github.com/aspnet/DNX), run the following commands after checkout to get started.
 
-`dnx restore`
+`dnu restore`
 
 `dnx test`
