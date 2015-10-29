@@ -16,9 +16,10 @@ namespace tictactoe_csharp
             board.Append(s);
             board[position] = player;
         }
-        
+
         public int Move(char player)
         {
+            // find winning move
             for (int i = 0; i < 9; i++)
             {
                 if(board[i] == '-') {
@@ -27,6 +28,8 @@ namespace tictactoe_csharp
                         return i;
                 }
             }
+
+            // find default move
             for (int i = 0; i < 9; i++) {
                 if (board[i] == '-')
                     return i;
@@ -49,7 +52,7 @@ namespace tictactoe_csharp
             if (board[6] != '-' && board[6] == board[7]
                     && board[7] == board[8])
                 return board[6];
-    
+
             return '-';
         }
     }
