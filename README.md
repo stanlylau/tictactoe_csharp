@@ -1,4 +1,4 @@
-# Tic Tac Toe Code Kata in C##
+# Tic Tac Toe Code Kata in C# #
 
 This kata is available in both dnx and regular VS solution project.
 
